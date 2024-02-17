@@ -14,7 +14,7 @@ app.use(cors())
 
 /* routes */
 app.use('/login', login)
-app.use('', s3Router)
+app.use('/', s3Router)
 
 /* 404 handler */
 app.use((_, res, __) => {
